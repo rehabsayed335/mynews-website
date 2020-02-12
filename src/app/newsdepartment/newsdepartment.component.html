@@ -1,0 +1,16 @@
+
+ <div class="card" style="width:100%; text-align: center;margin-top: 15px;" *ngFor="let item of departments">
+        <div class="card-body">
+          <p class="card-text">{{item.Name}}</p>
+          <h4 class="card-title">{{item.Date | date: 'dd/MM/yyyy'}}</h4>
+          <img class="card-img-top" src="{{item.Image}}" alt="news image">
+          
+          <p class="card-text">{{item.Desc}}</p>
+          
+
+
+        </div>
+</div>
+
+
+
